@@ -29,10 +29,10 @@ com.filmapp-core-runtime-2.2.0-27 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms
 com.filmapp-lifecycle-runtime-2.7.0-28 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\eb3592a925f2bfefb0b48e8ad6c71ad8\transformed\lifecycle-runtime-2.7.0\res
 com.filmapp-lifecycle-livedata-2.7.0-29 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\f8375c9dca2235b1854cef41ad2018c3\transformed\lifecycle-livedata-2.7.0\res
 com.filmapp-jetified-core-ktx-1.12.0-30 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\fee14ef34515285aaf573f38054a6daf\transformed\jetified-core-ktx-1.12.0\res
-com.filmapp-pngs-31 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\build\generated\res\pngs\debug
-com.filmapp-resValues-32 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\build\generated\res\resValues\debug
-com.filmapp-packageDebugResources-33 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.filmapp-packageDebugResources-34 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.filmapp-debug-35 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.filmapp-debug-36 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\debug\res
-com.filmapp-main-37 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\res
+com.filmapp-pngs-31 D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\build\generated\res\pngs\debug
+com.filmapp-resValues-32 D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\build\generated\res\resValues\debug
+com.filmapp-packageDebugResources-33 D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.filmapp-packageDebugResources-34 D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.filmapp-debug-35 D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.filmapp-debug-36 D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\debug\res
+com.filmapp-main-37 D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\res

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:viewbinding:8.7.3] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\c30b6c0b90ab110856c79475fad9ea2f\transformed\jetified-viewbinding-8.7.3\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\7b12cff23d72919c31472339231b7edd\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\62c41e02133f6d88b714965091842aff\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -53,20 +53,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ADVAN\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\d0f6490337d977e14248992f588aa5a9\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\e7b7bc8a4cd8c25661605a32dd116da7\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:6:5-27:19
-INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:6:5-27:19
+ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:6:5-27:19
+INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:6:5-27:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\7b12cff23d72919c31472339231b7edd\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\7b12cff23d72919c31472339231b7edd\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\62c41e02133f6d88b714965091842aff\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -84,51 +84,51 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ADVAN\.gradle\cach
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\f724b3fef3fd5c2c43e05b3a742ea3eb\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\f724b3fef3fd5c2c43e05b3a742ea3eb\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\3eb15bef06dda274c091f4207a3bebb4\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:10:9-59
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:10:9-59
 	android:icon
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:8:9-54
 	android:allowBackup
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:12:9-45
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:12:9-45
 	android:usesCleartextTraffic
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:13:9-44
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:13:9-44
 activity#com.filmapp.view.MainActivity
-ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:15:9-22:20
+ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:15:9-22:20
 	android:exported
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:16:13-46
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:16:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:18:13-21:29
+ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:20:27-74
 activity#com.filmapp.view.DetailActivity
-ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:24:9-57
+ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:24:9-57
 	android:name
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:24:19-54
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:24:19-54
 activity#com.filmapp.view.AddEditActivity
-ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:25:9-58
+ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:25:9-58
 	android:name
-		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:25:19-55
+		ADDED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:25:19-55
 uses-sdk
-INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml
-INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml
+INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml
+INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.7.3] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\c30b6c0b90ab110856c79475fad9ea2f\transformed\jetified-viewbinding-8.7.3\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.7.3] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\c30b6c0b90ab110856c79475fad9ea2f\transformed\jetified-viewbinding-8.7.3\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\7b12cff23d72919c31472339231b7edd\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
@@ -226,9 +226,9 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\e7b7bc8a4cd8c25661605a32dd116da7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\e7b7bc8a4cd8c25661605a32dd116da7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\de1b79f7da4af15891f3341c4d36ba76\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\494e3447be5d1d08af75ac750894de2c\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20

@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:4:5-67
-11-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:4:22-64
+11-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:4:22-64
 12
 13    <permission
 13-->[androidx.core:core:1.12.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\3eb15bef06dda274c091f4207a3bebb4\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
@@ -24,49 +24,49 @@
 17-->[androidx.core:core:1.12.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\3eb15bef06dda274c091f4207a3bebb4\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:6:5-27:19
+19-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:6:5-27:19
 20        android:allowBackup="true"
-20-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:7:9-35
+20-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:7:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.12.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\3eb15bef06dda274c091f4207a3bebb4\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 22        android:debuggable="true"
 23        android:extractNativeLibs="false"
 24        android:icon="@drawable/ic_movie_placeholder"
-24-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:8:9-54
+24-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:8:9-54
 25        android:label="@string/app_name"
-25-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:9:9-41
+25-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:9:9-41
 26        android:roundIcon="@drawable/ic_movie_placeholder"
-26-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:10:9-59
+26-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:10:9-59
 27        android:supportsRtl="true"
-27-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:11:9-35
+27-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:11:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.FilmApp"
-29-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:12:9-45
+29-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:12:9-45
 30        android:usesCleartextTraffic="true" >
-30-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:13:9-44
+30-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:13:9-44
 31        <activity
-31-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:15:9-22:20
+31-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:15:9-22:20
 32            android:name="com.filmapp.view.MainActivity"
-32-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:16:13-46
+32-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:16:13-46
 33            android:exported="true" >
-33-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:17:13-36
+33-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:17:13-36
 34            <intent-filter>
-34-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:18:13-21:29
+34-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:18:13-21:29
 35                <action android:name="android.intent.action.MAIN" />
-35-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:19:17-69
-35-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:19:25-66
+35-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:19:17-69
+35-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:19:25-66
 36
 37                <category android:name="android.intent.category.LAUNCHER" />
-37-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:20:17-77
-37-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:20:27-74
+37-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:20:17-77
+37-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:20:27-74
 38            </intent-filter>
 39        </activity>
 40        <activity android:name="com.filmapp.view.DetailActivity" />
-40-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:24:9-57
-40-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:24:19-54
+40-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:24:9-57
+40-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:24:19-54
 41        <activity android:name="com.filmapp.view.AddEditActivity" />
-41-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:25:9-58
-41-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\AndroidManifest.xml:25:19-55
+41-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:25:9-58
+41-->D:\Tugas Kuliah\SEMESTER 4\MOBILE\UAS_MOBILE\app\src\main\AndroidManifest.xml:25:19-55
 42
 43        <provider
 43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\de1b79f7da4af15891f3341c4d36ba76\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
