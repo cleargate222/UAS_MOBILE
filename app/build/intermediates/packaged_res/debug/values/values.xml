@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#E94560</color>
+    <color name="bg_card">#1A1A2E</color>
+    <color name="bg_dark">#0D0D0D</color>
+    <color name="black">#FF000000</color>
+    <color name="divider_color">#2A2A3E</color>
+    <color name="error_color">#FF5252</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="rating_color">#FFD700</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">FilmApp</string>
+    <style name="Theme.FilmApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/bg_card</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_card</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+        <item name="editTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+    </style>
+</resources>

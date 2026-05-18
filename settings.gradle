@@ -12,5 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "FilmApp"
+rootProject.name = "netvid"
 include ':app'
+    

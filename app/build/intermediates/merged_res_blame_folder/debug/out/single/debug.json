@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.filmapp-merged_res-35:/layout_item_film.xml.flat",
+        "source": "com.filmapp-main-37:/layout/item_film.xml"
+    },
+    {
+        "merged": "com.filmapp-merged_res-35:/layout_activity_detail.xml.flat",
+        "source": "com.filmapp-main-37:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.filmapp-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "com.filmapp-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.filmapp-merged_res-35:/drawable_ic_movie_placeholder.xml.flat",
+        "source": "com.filmapp-main-37:/drawable/ic_movie_placeholder.xml"
+    },
+    {
+        "merged": "com.filmapp-merged_res-35:/layout_activity_add_edit.xml.flat",
+        "source": "com.filmapp-main-37:/layout/activity_add_edit.xml"
+    }
+]

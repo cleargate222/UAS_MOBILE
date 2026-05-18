@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.filmapp-mergeDebugResources-34:/layout/item_film.xml",
+        "source": "com.filmapp-main-37:/layout/item_film.xml"
+    },
+    {
+        "merged": "com.filmapp-mergeDebugResources-34:/layout/fragment_search.xml",
+        "source": "com.filmapp-main-37:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.filmapp-mergeDebugResources-34:/layout/activity_add_edit.xml",
+        "source": "com.filmapp-main-37:/layout/activity_add_edit.xml"
+    },
+    {
+        "merged": "com.filmapp-mergeDebugResources-34:/layout/fragment_history.xml",
+        "source": "com.filmapp-main-37:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.filmapp-mergeDebugResources-34:/layout/activity_main.xml",
+        "source": "com.filmapp-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.filmapp-mergeDebugResources-34:/layout/fragment_home.xml",
+        "source": "com.filmapp-main-37:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.filmapp-mergeDebugResources-34:/layout/activity_detail.xml",
+        "source": "com.filmapp-main-37:/layout/activity_detail.xml"
+    }
+]

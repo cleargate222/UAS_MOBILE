@@ -1,0 +1,38 @@
+com.filmapp-coordinatorlayout-1.1.0-0 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\04639df14dfcf5be662cda3a51faff25\transformed\coordinatorlayout-1.1.0\res
+com.filmapp-drawerlayout-1.1.1-1 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\16ec0374dab83677f27f61c9ae6ac369\transformed\drawerlayout-1.1.1\res
+com.filmapp-appcompat-resources-1.6.1-2 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\17022a5255a44a8651b35947cb9ee4aa\transformed\appcompat-resources-1.6.1\res
+com.filmapp-core-runtime-2.2.0-3 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\186e9590302d532290957497136eb72f\transformed\core-runtime-2.2.0\res
+com.filmapp-material-1.11.0-4 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\1a354336bf2625898e3718fefda3a2ac\transformed\material-1.11.0\res
+com.filmapp-glide-4.16.0-5 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\1d0a0171f44c7971ac212c21fabfbf80\transformed\glide-4.16.0\res
+com.filmapp-activity-1.8.0-6 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\1d9339ec8d4c6b2d42a12278020ad0e7\transformed\activity-1.8.0\res
+com.filmapp-lifecycle-viewmodel-2.7.0-7 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\246ed10b70c5547cb4b1860f8d0337a4\transformed\lifecycle-viewmodel-2.7.0\res
+com.filmapp-lifecycle-runtime-2.7.0-8 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\4824d65de225ae98f23908fff4d7b4be\transformed\lifecycle-runtime-2.7.0\res
+com.filmapp-savedstate-1.2.1-9 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\4ce39bd1ff4450bc1ab97671dd99a17d\transformed\savedstate-1.2.1\res
+com.filmapp-cardview-1.0.0-10 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\532dff6080a77da2b5523e54ad01956d\transformed\cardview-1.0.0\res
+com.filmapp-transition-1.2.0-11 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\54cccbd61768c397f3da515d4e46b2a5\transformed\transition-1.2.0\res
+com.filmapp-constraintlayout-2.1.4-12 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\5f1ac1d3089f1b19cf09d424b29d4e88\transformed\constraintlayout-2.1.4\res
+com.filmapp-lifecycle-livedata-2.7.0-13 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\5f4714a18985cb2832a0648599e32623\transformed\lifecycle-livedata-2.7.0\res
+com.filmapp-core-1.12.0-14 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\6083c38064f7f0e2055b1ee8be920f5b\transformed\core-1.12.0\res
+com.filmapp-recyclerview-1.3.2-15 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\62f99335c79326735734cc5f0cafadbd\transformed\recyclerview-1.3.2\res
+com.filmapp-profileinstaller-1.3.0-16 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\66a0a658739a8925530a4a6b97ab9d60\transformed\profileinstaller-1.3.0\res
+com.filmapp-core-ktx-1.12.0-17 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\795c84bb08bcffed449a9c9676292d35\transformed\core-ktx-1.12.0\res
+com.filmapp-fragment-1.3.6-18 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\8c8dc4d83eab8dda1b7e6222cfd37819\transformed\fragment-1.3.6\res
+com.filmapp-emoji2-1.2.0-19 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\996a9dd2e862aa7befe8d0b7dfc1887e\transformed\emoji2-1.2.0\res
+com.filmapp-emoji2-views-helper-1.2.0-20 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\b15cd47aa5f9fc5f7899005521f47d4f\transformed\emoji2-views-helper-1.2.0\res
+com.filmapp-lifecycle-viewmodel-savedstate-2.7.0-21 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\b47068e057253ebc7f2ba0ed262f0070\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.filmapp-annotation-experimental-1.3.0-22 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\b4a3d69497eab383df231b71464e0969\transformed\annotation-experimental-1.3.0\res
+com.filmapp-lifecycle-livedata-core-2.7.0-23 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\c070b24bed03820e7d3ef8ffbc66c728\transformed\lifecycle-livedata-core-2.7.0\res
+com.filmapp-lifecycle-process-2.7.0-24 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\c49cc19d8c090201934bfe197323f2a1\transformed\lifecycle-process-2.7.0\res
+com.filmapp-startup-runtime-1.1.1-25 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\cffbce3e67df097e7e58d75cbaaa3a0a\transformed\startup-runtime-1.1.1\res
+com.filmapp-appcompat-1.6.1-26 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\da1a3e9f27e4713b0fd08c60d290c55e\transformed\appcompat-1.6.1\res
+com.filmapp-customview-poolingcontainer-1.0.0-27 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\e67b90ca1ebc4957bc58a0437f79fac7\transformed\customview-poolingcontainer-1.0.0\res
+com.filmapp-viewpager2-1.1.0-beta02-28 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\e6b0d8225517f1fddff30d9bebf5aafd\transformed\viewpager2-1.1.0-beta02\res
+com.filmapp-lifecycle-runtime-ktx-2.7.0-29 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\f3b4c7c424bd2eca2a58a630d6117b1d\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.filmapp-lifecycle-livedata-core-ktx-2.7.0-30 C:\Users\ADVAN\.gradle\caches\9.0.0\transforms\fb5f6e6c90b2c38b90b21a2cb47c39fa\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.filmapp-pngs-31 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\build\generated\res\pngs\debug
+com.filmapp-resValues-32 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\build\generated\res\resValues\debug
+com.filmapp-packageDebugResources-33 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.filmapp-packageDebugResources-34 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.filmapp-merged_res-35 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\build\intermediates\merged_res\debug
+com.filmapp-debug-36 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\debug\res
+com.filmapp-main-37 D:\Tugas Kuliah\SEMESTER 4\MOBILE\Netflix\FilmApp\app\src\main\res

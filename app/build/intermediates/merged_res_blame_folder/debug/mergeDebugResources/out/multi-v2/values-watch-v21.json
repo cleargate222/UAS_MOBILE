@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.filmapp-mergeDebugResources-33:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ADVAN\\.gradle\\caches\\9.0.0\\transforms\\37b8ecce6764a5237d0db5bc61368990\\transformed\\appcompat-1.6.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

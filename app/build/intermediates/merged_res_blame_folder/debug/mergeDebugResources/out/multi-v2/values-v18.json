@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.filmapp-mergeDebugResources-33:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ADVAN\\.gradle\\caches\\9.0.0\\transforms\\37b8ecce6764a5237d0db5bc61368990\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}
