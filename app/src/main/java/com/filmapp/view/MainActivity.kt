@@ -8,7 +8,7 @@ import com.filmapp.databinding.ActivityMainBinding
 import com.filmapp.util.ThemeManager
 import com.filmapp.view.fragment.HomeFragment
 import com.filmapp.view.fragment.SearchFragment
-import com.filmapp.view.fragment.HistoryFragment
+import com.filmapp.view.fragment.ProfileFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.nav_home -> { loadFragment(HomeFragment()); true }
                 R.id.nav_search -> { loadFragment(SearchFragment()); true }
-                R.id.nav_history -> { loadFragment(HistoryFragment()); true }
+                R.id.nav_profile -> { loadFragment(ProfileFragment()); true }
                 else -> false
             }
         }
