@@ -43,6 +43,7 @@ class AddEditActivity : AppCompatActivity() {
             binding.etYear.setText(film.tahunRilis)
             binding.etRating.setText(film.skorRating.toString())
             binding.etPosterUrl.setText(film.gambarPoster)
+            binding.etTrailerUrl.setText(film.urlTrailer)
             binding.etDescription.setText(film.ringkasan)
         }
     }
@@ -53,6 +54,7 @@ class AddEditActivity : AppCompatActivity() {
             val kategori = binding.etGenre.text.toString().trim()
             val rating = binding.etRating.text.toString().trim().toIntOrNull() ?: 0
             val posterUrl = binding.etPosterUrl.text.toString().trim()
+            val trailerUrl = binding.etTrailerUrl.text.toString().trim()
             val ringkasan = binding.etDescription.text.toString().trim()
 
             if (judul.isEmpty() || kategori.isEmpty()) {
@@ -60,14 +62,26 @@ class AddEditActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+            val yearInput = binding.etYear.text.toString().trim().toIntOrNull() ?: 2026
+            val calendar = java.util.Calendar.getInstance()
+            calendar.set(java.util.Calendar.YEAR, yearInput)
+            calendar.set(java.util.Calendar.MONTH, 0)
+            calendar.set(java.util.Calendar.DAY_OF_MONTH, 1)
+            calendar.set(java.util.Calendar.HOUR_OF_DAY, 0)
+            calendar.set(java.util.Calendar.MINUTE, 0)
+            calendar.set(java.util.Calendar.SECOND, 0)
+            calendar.set(java.util.Calendar.MILLISECOND, 0)
+            val releaseTimestamp = calendar.timeInMillis / 1000
+
             val film = Film(
                 judul = judul,
                 kategori = kategori,
                 skorRating = rating,
                 gambarPoster = posterUrl,
                 gambarSampul = posterUrl,
+                urlTrailer = trailerUrl,
                 ringkasan = ringkasan,
-                tanggalRilis = existingFilm?.tanggalRilis ?: (System.currentTimeMillis() / 1000)
+                tanggalRilis = releaseTimestamp
             )
 
             binding.progressBar.visibility = View.VISIBLE
