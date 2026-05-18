@@ -16,6 +16,7 @@ import com.filmapp.model.Film
 import com.filmapp.view.DetailActivity
 import com.filmapp.view.FilmAdapter
 import kotlinx.coroutines.launch
+import kotlinx.serialization.InternalSerializationApi
 
 class SearchFragment : Fragment() {
 
@@ -23,6 +24,7 @@ class SearchFragment : Fragment() {
     private val binding get() = _binding!!
     private val controller = FilmController()
     private lateinit var adapter: FilmAdapter
+    @OptIn(InternalSerializationApi::class)
     private var allFilms: List<Film> = emptyList()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
@@ -37,6 +39,7 @@ class SearchFragment : Fragment() {
         loadFilms()
     }
 
+    @OptIn(InternalSerializationApi::class)
     private fun setupRecyclerView() {
         adapter = FilmAdapter(
             mutableListOf(),
@@ -45,12 +48,27 @@ class SearchFragment : Fragment() {
                 intent.putExtra("film", film)
                 startActivity(intent)
             },
-            onDeleteClick = {}
+            onDeleteClick = { film ->  // ← tambahkan logika hapus di sini
+                lifecycleScope.launch {
+                    controller.deleteFilm(film.id).fold(
+                        onSuccess = {
+                            adapter.removeItem(film)
+                            // Update juga allFilms supaya filter search ikut terupdate
+                            allFilms = allFilms.filter { it.id != film.id }
+                            Toast.makeText(requireContext(), "Film dihapus", Toast.LENGTH_SHORT).show()
+                        },
+                        onFailure = {
+                            Toast.makeText(requireContext(), "Gagal menghapus", Toast.LENGTH_SHORT).show()
+                        }
+                    )
+                }
+            }
         )
         binding.rvSearch.layoutManager = androidx.recyclerview.widget.GridLayoutManager(requireContext(), 2)
         binding.rvSearch.adapter = adapter
     }
 
+    @OptIn(InternalSerializationApi::class)
     private fun setupSearch() {
         binding.etSearch.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
@@ -70,6 +88,7 @@ class SearchFragment : Fragment() {
         })
     }
 
+    @OptIn(InternalSerializationApi::class)
     private fun loadFilms() {
         binding.progressBar.visibility = View.VISIBLE
         lifecycleScope.launch {

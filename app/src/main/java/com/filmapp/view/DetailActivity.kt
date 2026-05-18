@@ -11,11 +11,13 @@ import com.filmapp.R
 import com.filmapp.databinding.ActivityDetailBinding
 import com.filmapp.model.Film
 import com.filmapp.util.HistoryManager
+import kotlinx.serialization.InternalSerializationApi
 
 class DetailActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailBinding
 
+    @OptIn(InternalSerializationApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
@@ -41,6 +43,7 @@ class DetailActivity : AppCompatActivity() {
         binding.toolbar.setNavigationOnClickListener { onBackPressedDispatcher.onBackPressed() }
     }
 
+    @OptIn(InternalSerializationApi::class)
     private fun bindFilm(film: Film) {
         supportActionBar?.title = film.judul
 

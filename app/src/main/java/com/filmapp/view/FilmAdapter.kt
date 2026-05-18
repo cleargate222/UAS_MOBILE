@@ -7,8 +7,9 @@ import com.bumptech.glide.Glide
 import com.filmapp.R
 import com.filmapp.databinding.ItemFilmBinding
 import com.filmapp.model.Film
+import kotlinx.serialization.InternalSerializationApi
 
-class FilmAdapter(
+class FilmAdapter @OptIn(InternalSerializationApi::class) constructor(
     private var films: MutableList<Film>,
     private val onItemClick: (Film) -> Unit,
     private val onDeleteClick: (Film) -> Unit
@@ -22,6 +23,7 @@ class FilmAdapter(
         return FilmViewHolder(binding)
     }
 
+    @OptIn(InternalSerializationApi::class)
     override fun onBindViewHolder(holder: FilmViewHolder, position: Int) {
         val film = films[position]
         with(holder.binding) {
@@ -43,14 +45,17 @@ class FilmAdapter(
         }
     }
 
+    @OptIn(InternalSerializationApi::class)
     override fun getItemCount() = films.size
 
+    @OptIn(InternalSerializationApi::class)
     fun updateData(newFilms: List<Film>) {
         films.clear()
         films.addAll(newFilms)
         notifyDataSetChanged()
     }
 
+    @OptIn(InternalSerializationApi::class)
     fun removeItem(film: Film) {
         val index = films.indexOfFirst { it.id == film.id }
         if (index != -1) {

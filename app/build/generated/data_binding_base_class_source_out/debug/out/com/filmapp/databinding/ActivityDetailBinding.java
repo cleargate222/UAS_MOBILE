@@ -5,9 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.VideoView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -26,7 +29,13 @@ public final class ActivityDetailBinding implements ViewBinding {
   public final MaterialButton btnEdit;
 
   @NonNull
+  public final CardView cvPlayer;
+
+  @NonNull
   public final ImageView ivPoster;
+
+  @NonNull
+  public final ProgressBar pbVideoLoading;
 
   @NonNull
   public final MaterialToolbar toolbar;
@@ -41,6 +50,9 @@ public final class ActivityDetailBinding implements ViewBinding {
   public final TextView tvGenre;
 
   @NonNull
+  public final TextView tvPlayerTitle;
+
+  @NonNull
   public final TextView tvRating;
 
   @NonNull
@@ -49,21 +61,29 @@ public final class ActivityDetailBinding implements ViewBinding {
   @NonNull
   public final TextView tvYear;
 
+  @NonNull
+  public final VideoView videoView;
+
   private ActivityDetailBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull MaterialButton btnEdit, @NonNull ImageView ivPoster,
-      @NonNull MaterialToolbar toolbar, @NonNull TextView tvDescription,
-      @NonNull TextView tvDirector, @NonNull TextView tvGenre, @NonNull TextView tvRating,
-      @NonNull TextView tvTitle, @NonNull TextView tvYear) {
+      @NonNull MaterialButton btnEdit, @NonNull CardView cvPlayer, @NonNull ImageView ivPoster,
+      @NonNull ProgressBar pbVideoLoading, @NonNull MaterialToolbar toolbar,
+      @NonNull TextView tvDescription, @NonNull TextView tvDirector, @NonNull TextView tvGenre,
+      @NonNull TextView tvPlayerTitle, @NonNull TextView tvRating, @NonNull TextView tvTitle,
+      @NonNull TextView tvYear, @NonNull VideoView videoView) {
     this.rootView = rootView;
     this.btnEdit = btnEdit;
+    this.cvPlayer = cvPlayer;
     this.ivPoster = ivPoster;
+    this.pbVideoLoading = pbVideoLoading;
     this.toolbar = toolbar;
     this.tvDescription = tvDescription;
     this.tvDirector = tvDirector;
     this.tvGenre = tvGenre;
+    this.tvPlayerTitle = tvPlayerTitle;
     this.tvRating = tvRating;
     this.tvTitle = tvTitle;
     this.tvYear = tvYear;
+    this.videoView = videoView;
   }
 
   @Override
@@ -99,9 +119,21 @@ public final class ActivityDetailBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.cvPlayer;
+      CardView cvPlayer = ViewBindings.findChildViewById(rootView, id);
+      if (cvPlayer == null) {
+        break missingId;
+      }
+
       id = R.id.ivPoster;
       ImageView ivPoster = ViewBindings.findChildViewById(rootView, id);
       if (ivPoster == null) {
+        break missingId;
+      }
+
+      id = R.id.pbVideoLoading;
+      ProgressBar pbVideoLoading = ViewBindings.findChildViewById(rootView, id);
+      if (pbVideoLoading == null) {
         break missingId;
       }
 
@@ -129,6 +161,12 @@ public final class ActivityDetailBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvPlayerTitle;
+      TextView tvPlayerTitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvPlayerTitle == null) {
+        break missingId;
+      }
+
       id = R.id.tvRating;
       TextView tvRating = ViewBindings.findChildViewById(rootView, id);
       if (tvRating == null) {
@@ -147,8 +185,15 @@ public final class ActivityDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDetailBinding((CoordinatorLayout) rootView, btnEdit, ivPoster, toolbar,
-          tvDescription, tvDirector, tvGenre, tvRating, tvTitle, tvYear);
+      id = R.id.videoView;
+      VideoView videoView = ViewBindings.findChildViewById(rootView, id);
+      if (videoView == null) {
+        break missingId;
+      }
+
+      return new ActivityDetailBinding((CoordinatorLayout) rootView, btnEdit, cvPlayer, ivPoster,
+          pbVideoLoading, toolbar, tvDescription, tvDirector, tvGenre, tvPlayerTitle, tvRating,
+          tvTitle, tvYear, videoView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

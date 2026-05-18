@@ -29,9 +29,6 @@ public final class ActivityAddEditBinding implements ViewBinding {
   public final TextInputEditText etDescription;
 
   @NonNull
-  public final TextInputEditText etDirector;
-
-  @NonNull
   public final TextInputEditText etGenre;
 
   @NonNull
@@ -44,6 +41,9 @@ public final class ActivityAddEditBinding implements ViewBinding {
   public final TextInputEditText etTitle;
 
   @NonNull
+  public final TextInputEditText etTrailerUrl;
+
+  @NonNull
   public final TextInputEditText etYear;
 
   @NonNull
@@ -54,18 +54,18 @@ public final class ActivityAddEditBinding implements ViewBinding {
 
   private ActivityAddEditBinding(@NonNull CoordinatorLayout rootView,
       @NonNull MaterialButton btnSave, @NonNull TextInputEditText etDescription,
-      @NonNull TextInputEditText etDirector, @NonNull TextInputEditText etGenre,
-      @NonNull TextInputEditText etPosterUrl, @NonNull TextInputEditText etRating,
-      @NonNull TextInputEditText etTitle, @NonNull TextInputEditText etYear,
+      @NonNull TextInputEditText etGenre, @NonNull TextInputEditText etPosterUrl,
+      @NonNull TextInputEditText etRating, @NonNull TextInputEditText etTitle,
+      @NonNull TextInputEditText etTrailerUrl, @NonNull TextInputEditText etYear,
       @NonNull ProgressBar progressBar, @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
     this.btnSave = btnSave;
     this.etDescription = etDescription;
-    this.etDirector = etDirector;
     this.etGenre = etGenre;
     this.etPosterUrl = etPosterUrl;
     this.etRating = etRating;
     this.etTitle = etTitle;
+    this.etTrailerUrl = etTrailerUrl;
     this.etYear = etYear;
     this.progressBar = progressBar;
     this.toolbar = toolbar;
@@ -110,12 +110,6 @@ public final class ActivityAddEditBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.etDirector;
-      TextInputEditText etDirector = ViewBindings.findChildViewById(rootView, id);
-      if (etDirector == null) {
-        break missingId;
-      }
-
       id = R.id.etGenre;
       TextInputEditText etGenre = ViewBindings.findChildViewById(rootView, id);
       if (etGenre == null) {
@@ -140,6 +134,12 @@ public final class ActivityAddEditBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.etTrailerUrl;
+      TextInputEditText etTrailerUrl = ViewBindings.findChildViewById(rootView, id);
+      if (etTrailerUrl == null) {
+        break missingId;
+      }
+
       id = R.id.etYear;
       TextInputEditText etYear = ViewBindings.findChildViewById(rootView, id);
       if (etYear == null) {
@@ -159,7 +159,7 @@ public final class ActivityAddEditBinding implements ViewBinding {
       }
 
       return new ActivityAddEditBinding((CoordinatorLayout) rootView, btnSave, etDescription,
-          etDirector, etGenre, etPosterUrl, etRating, etTitle, etYear, progressBar, toolbar);
+          etGenre, etPosterUrl, etRating, etTitle, etTrailerUrl, etYear, progressBar, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -2,6 +2,7 @@ package com.filmapp.util
 
 import android.content.Context
 import com.filmapp.model.Film
+import kotlinx.serialization.InternalSerializationApi
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 
@@ -10,6 +11,7 @@ object HistoryManager {
     private const val KEY_HISTORY = "history"
     private const val MAX_HISTORY = 20
 
+    @OptIn(InternalSerializationApi::class)
     fun add(context: Context, film: Film) {
         val list = getAll(context).toMutableList()
         list.removeAll { it.id == film.id }
@@ -18,14 +20,17 @@ object HistoryManager {
         save(context, list)
     }
 
+    @OptIn(InternalSerializationApi::class)
     fun getAll(context: Context): List<Film> {
         val json = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
             .getString(KEY_HISTORY, null) ?: return emptyList()
         return runCatching { Json.decodeFromString<List<Film>>(json) }.getOrDefault(emptyList())
     }
 
+    @OptIn(InternalSerializationApi::class)
     fun clear(context: Context) = save(context, emptyList())
 
+    @OptIn(InternalSerializationApi::class)
     private fun save(context: Context, list: List<Film>) {
         context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
             .edit().putString(KEY_HISTORY, Json.encodeToString(list)).apply()

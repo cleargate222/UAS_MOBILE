@@ -10,6 +10,7 @@ import com.filmapp.databinding.FragmentHistoryBinding
 import com.filmapp.util.HistoryManager
 import com.filmapp.view.DetailActivity
 import com.filmapp.view.FilmAdapter
+import kotlinx.serialization.InternalSerializationApi
 
 class HistoryFragment : Fragment() {
 
@@ -22,6 +23,7 @@ class HistoryFragment : Fragment() {
         return binding.root
     }
 
+    @OptIn(InternalSerializationApi::class)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -50,6 +52,7 @@ class HistoryFragment : Fragment() {
         loadHistory()
     }
 
+    @OptIn(InternalSerializationApi::class)
     private fun loadHistory() {
         val history = HistoryManager.getAll(requireContext())
         adapter.updateData(history)

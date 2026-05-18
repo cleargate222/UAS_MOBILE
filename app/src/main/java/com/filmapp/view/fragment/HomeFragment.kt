@@ -17,6 +17,7 @@ import com.filmapp.view.AddEditActivity
 import com.filmapp.view.DetailActivity
 import com.filmapp.view.FilmAdapter
 import kotlinx.coroutines.launch
+import kotlinx.serialization.InternalSerializationApi
 
 class HomeFragment : Fragment() {
 
@@ -42,6 +43,7 @@ class HomeFragment : Fragment() {
         loadFilms()
     }
 
+    @OptIn(InternalSerializationApi::class)
     private fun setupRecyclerView() {
         adapter = FilmAdapter(
             mutableListOf(),
@@ -66,6 +68,7 @@ class HomeFragment : Fragment() {
         }
     }
 
+    @OptIn(InternalSerializationApi::class)
     private fun loadFilms() {
         binding.progressBar.visibility = View.VISIBLE
         binding.rvFilms.visibility = View.GONE
@@ -91,6 +94,7 @@ class HomeFragment : Fragment() {
         }
     }
 
+    @OptIn(InternalSerializationApi::class)
     private fun confirmDelete(film: Film) {
         AlertDialog.Builder(requireContext())
             .setTitle("Hapus Film")

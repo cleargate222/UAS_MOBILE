@@ -28,13 +28,14 @@ id btnDelete
 id btnEdit
 id btnSave
 id btnTheme
+id cvPlayer
 id etDescription
-id etDirector
 id etGenre
 id etPosterUrl
 id etRating
 id etSearch
 id etTitle
+id etTrailerUrl
 id etYear
 id fabAdd
 id fragmentContainer
@@ -42,6 +43,7 @@ id ivPoster
 id nav_history
 id nav_home
 id nav_search
+id pbVideoLoading
 id progressBar
 id rvFilms
 id rvHistory
@@ -51,9 +53,11 @@ id tvDescription
 id tvDirector
 id tvEmpty
 id tvGenre
+id tvPlayerTitle
 id tvRating
 id tvTitle
 id tvYear
+id videoView
 layout activity_add_edit
 layout activity_detail
 layout activity_main

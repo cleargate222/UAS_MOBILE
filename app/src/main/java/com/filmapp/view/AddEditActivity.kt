@@ -9,13 +9,16 @@ import com.filmapp.controller.FilmController
 import com.filmapp.databinding.ActivityAddEditBinding
 import com.filmapp.model.Film
 import kotlinx.coroutines.launch
+import kotlinx.serialization.InternalSerializationApi
 
 class AddEditActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityAddEditBinding
     private val controller = FilmController()
+    @OptIn(InternalSerializationApi::class)
     private var existingFilm: Film? = null
 
+    @OptIn(InternalSerializationApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityAddEditBinding.inflate(layoutInflater)
@@ -29,6 +32,7 @@ class AddEditActivity : AppCompatActivity() {
         setupSaveButton()
     }
 
+    @OptIn(InternalSerializationApi::class)
     private fun setupToolbar() {
         setSupportActionBar(binding.toolbar)
         supportActionBar?.title = if (existingFilm != null) "Edit Film" else "Tambah Film"
@@ -36,6 +40,7 @@ class AddEditActivity : AppCompatActivity() {
         binding.toolbar.setNavigationOnClickListener { onBackPressedDispatcher.onBackPressed() }
     }
 
+    @OptIn(InternalSerializationApi::class)
     private fun populateFields() {
         existingFilm?.let { film ->
             binding.etTitle.setText(film.judul)
@@ -48,6 +53,7 @@ class AddEditActivity : AppCompatActivity() {
         }
     }
 
+    @OptIn(InternalSerializationApi::class)
     private fun setupSaveButton() {
         binding.btnSave.setOnClickListener {
             val judul = binding.etTitle.text.toString().trim()
@@ -89,9 +95,9 @@ class AddEditActivity : AppCompatActivity() {
 
             lifecycleScope.launch {
                 val result = if (existingFilm != null) {
-                    controller.updateFilm(existingFilm!!.id, film)
+                    controller.updateFilm(existingFilm!!.id, film.copy(id = existingFilm!!.id))
                 } else {
-                    controller.createFilm(film)
+                    controller.createFilm(film.copy(id = ""))
                 }
 
                 result.fold(

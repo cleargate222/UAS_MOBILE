@@ -3239,6 +3239,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id cvPlayer
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3282,12 +3283,12 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id etDescription
-id etDirector
 id etGenre
 id etPosterUrl
 id etRating
 id etSearch
 id etTitle
+id etTrailerUrl
 id etYear
 id exitUntilCollapsed
 id expand_activities_button
@@ -3465,6 +3466,7 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id pbVideoLoading
 id peekHeight
 id percent
 id pin
@@ -3601,6 +3603,7 @@ id tvDescription
 id tvDirector
 id tvEmpty
 id tvGenre
+id tvPlayerTitle
 id tvRating
 id tvTitle
 id tvYear
@@ -3610,6 +3613,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id videoView
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
