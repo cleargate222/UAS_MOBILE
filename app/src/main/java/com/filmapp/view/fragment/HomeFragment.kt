@@ -9,11 +9,13 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.ConcatAdapter
 import com.filmapp.controller.FilmController
 import com.filmapp.databinding.FragmentHomeBinding
 import com.filmapp.model.Film
 import com.filmapp.util.ThemeManager
 import com.filmapp.view.AddEditActivity
+import com.filmapp.view.BannerHeaderAdapter
 import com.filmapp.view.DetailActivity
 import com.filmapp.view.FilmAdapter
 import kotlinx.coroutines.launch
@@ -24,7 +26,8 @@ class HomeFragment : Fragment() {
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
     private val controller = FilmController()
-    private lateinit var adapter: FilmAdapter
+    private lateinit var filmAdapter: FilmAdapter
+    private lateinit var bannerAdapter: BannerHeaderAdapter
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
@@ -41,11 +44,23 @@ class HomeFragment : Fragment() {
     override fun onResume() {
         super.onResume()
         loadFilms()
+        bannerAdapter.startAutoScroll()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        bannerAdapter.stopAutoScroll()
     }
 
     @OptIn(InternalSerializationApi::class)
     private fun setupRecyclerView() {
-        adapter = FilmAdapter(
+        bannerAdapter = BannerHeaderAdapter { film ->
+            val intent = Intent(requireContext(), DetailActivity::class.java)
+            intent.putExtra("film", film)
+            startActivity(intent)
+        }
+
+        filmAdapter = FilmAdapter(
             mutableListOf(),
             onItemClick = { film ->
                 val intent = Intent(requireContext(), DetailActivity::class.java)
@@ -54,8 +69,17 @@ class HomeFragment : Fragment() {
             },
             onDeleteClick = { film -> confirmDelete(film) }
         )
-        binding.rvFilms.layoutManager = androidx.recyclerview.widget.GridLayoutManager(requireContext(), 2)
-        binding.rvFilms.adapter = adapter
+
+        val concatAdapter = ConcatAdapter(bannerAdapter, filmAdapter)
+        binding.rvFilms.layoutManager = androidx.recyclerview.widget.GridLayoutManager(requireContext(), 2).apply {
+            spanSizeLookup = object : androidx.recyclerview.widget.GridLayoutManager.SpanSizeLookup() {
+                override fun getSpanSize(position: Int): Int {
+                    // Banner header selalu full width (span 2)
+                    return if (position == 0 && bannerAdapter.itemCount > 0) 2 else 1
+                }
+            }
+        }
+        binding.rvFilms.adapter = concatAdapter
     }
 
     private fun setupButtons() {
@@ -82,7 +106,8 @@ class HomeFragment : Fragment() {
                         binding.tvEmpty.visibility = View.VISIBLE
                     } else {
                         binding.rvFilms.visibility = View.VISIBLE
-                        adapter.updateData(films)
+                        bannerAdapter.updateFilms(films)
+                        filmAdapter.updateData(films)
                     }
                 },
                 onFailure = {
@@ -103,7 +128,7 @@ class HomeFragment : Fragment() {
                 lifecycleScope.launch {
                     controller.deleteFilm(film.id).fold(
                         onSuccess = {
-                            adapter.removeItem(film)
+                            filmAdapter.removeItem(film)
                             Toast.makeText(requireContext(), "Dihapus", Toast.LENGTH_SHORT).show()
                         },
                         onFailure = {
@@ -118,6 +143,7 @@ class HomeFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        bannerAdapter.stopAutoScroll()
         _binding = null
     }
 }

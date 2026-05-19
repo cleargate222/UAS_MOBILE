@@ -1,70 +1,110 @@
 [
     {
-        "merged": "com.filmapp-debug-35:/drawable_ic_home.xml.flat",
-        "source": "com.filmapp-main-37:/drawable/ic_home.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\ic_home.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/drawable_ic_search.xml.flat",
-        "source": "com.filmapp-main-37:/drawable/ic_search.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\layout_activity_add_edit.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\activity_add_edit.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/drawable_gradient_overlay.xml.flat",
-        "source": "com.filmapp-main-37:/drawable/gradient_overlay.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\layout_layout_banner_header.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\layout_banner_header.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.filmapp-main-37:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_dot_inactive.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\dot_inactive.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/drawable_ic_movie_placeholder.xml.flat",
-        "source": "com.filmapp-main-37:/drawable/ic_movie_placeholder.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_ic_theme_toggle.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\ic_theme_toggle.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/layout_activity_main.xml.flat",
-        "source": "com.filmapp-main-37:/layout/activity_main.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\fragment_search.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/drawable_ic_delete.xml.flat",
-        "source": "com.filmapp-main-37:/drawable/ic_delete.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\layout_fragment_history.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\fragment_history.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/layout_activity_detail.xml.flat",
-        "source": "com.filmapp-main-37:/layout/activity_detail.xml"
+        "merged": "com.filmapp-debug-35:/drawable_dot_inactive_pill.xml.flat",
+        "source": "com.filmapp-main-37:/drawable/dot_inactive_pill.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/drawable_ic_history.xml.flat",
-        "source": "com.filmapp-main-37:/drawable/ic_history.xml"
+        "merged": "com.filmapp-debug-35:/layout_layout_banner_header.xml.flat",
+        "source": "com.filmapp-main-37:/layout/layout_banner_header.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/drawable_ic_theme_toggle.xml.flat",
-        "source": "com.filmapp-main-37:/drawable/ic_theme_toggle.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_dot_active.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\dot_active.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/color_nav_selector.xml.flat",
-        "source": "com.filmapp-main-37:/color/nav_selector.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_bg_badge.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\bg_badge.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/layout_fragment_home.xml.flat",
-        "source": "com.filmapp-main-37:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_banner_gradient.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\banner_gradient.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/drawable_bg_badge.xml.flat",
-        "source": "com.filmapp-main-37:/drawable/bg_badge.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\layout_item_banner.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\item_banner.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/layout_item_film.xml.flat",
-        "source": "com.filmapp-main-37:/layout/item_film.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\activity_detail.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/layout_fragment_history.xml.flat",
-        "source": "com.filmapp-main-37:/layout/fragment_history.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_dot_active_pill.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\dot_active_pill.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/layout_fragment_search.xml.flat",
-        "source": "com.filmapp-main-37:/layout/fragment_search.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\ic_history.xml"
     },
     {
-        "merged": "com.filmapp-debug-35:/layout_activity_add_edit.xml.flat",
-        "source": "com.filmapp-main-37:/layout/activity_add_edit.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_dot_inactive_pill.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\dot_inactive_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\color_nav_selector.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\color\\nav_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_bg_delete_btn.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\bg_delete_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\layout_item_film.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\item_film.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_gradient_overlay.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\gradient_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_ic_movie_placeholder.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\ic_movie_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-debug-35:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\drawable\\ic_search.xml"
     }
 ]

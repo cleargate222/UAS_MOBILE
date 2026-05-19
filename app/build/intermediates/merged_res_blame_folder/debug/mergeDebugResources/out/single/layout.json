@@ -1,30 +1,42 @@
 [
     {
-        "merged": "com.filmapp-mergeDebugResources-34:/layout/item_film.xml",
-        "source": "com.filmapp-main-37:/layout/item_film.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-mergeDebugResources-34:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.filmapp-mergeDebugResources-34:/layout/fragment_search.xml",
-        "source": "com.filmapp-main-37:/layout/fragment_search.xml"
+        "merged": "com.filmapp-mergeDebugResources-34:/layout/layout_banner_header.xml",
+        "source": "com.filmapp-main-37:/layout/layout_banner_header.xml"
     },
     {
-        "merged": "com.filmapp-mergeDebugResources-34:/layout/activity_add_edit.xml",
-        "source": "com.filmapp-main-37:/layout/activity_add_edit.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-mergeDebugResources-34:\\layout\\activity_detail.xml",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\activity_detail.xml"
     },
     {
-        "merged": "com.filmapp-mergeDebugResources-34:/layout/fragment_history.xml",
-        "source": "com.filmapp-main-37:/layout/fragment_history.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-mergeDebugResources-34:\\layout\\item_film.xml",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\item_film.xml"
     },
     {
-        "merged": "com.filmapp-mergeDebugResources-34:/layout/activity_main.xml",
-        "source": "com.filmapp-main-37:/layout/activity_main.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-mergeDebugResources-34:\\layout\\layout_banner_header.xml",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\layout_banner_header.xml"
     },
     {
-        "merged": "com.filmapp-mergeDebugResources-34:/layout/fragment_home.xml",
-        "source": "com.filmapp-main-37:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-mergeDebugResources-34:\\layout\\fragment_history.xml",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\fragment_history.xml"
     },
     {
-        "merged": "com.filmapp-mergeDebugResources-34:/layout/activity_detail.xml",
-        "source": "com.filmapp-main-37:/layout/activity_detail.xml"
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-mergeDebugResources-34:\\layout\\activity_add_edit.xml",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\activity_add_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-mergeDebugResources-34:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-mergeDebugResources-34:\\layout\\item_banner.xml",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\item_banner.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-mergeDebugResources-34:\\layout\\fragment_search.xml",
+        "source": "C:\\Users\\ADVAN\\.gradle\\daemon\\9.0.0\\com.filmapp-main-37:\\layout\\fragment_search.xml"
     }
 ]
